@@ -10,7 +10,7 @@ const MainContent = () => {
         <h1 className="w-[1020px] h-[32px] p-[4px_0px] border-t ">
           <span className="w-[58px] h-[24px]">To Do</span>
         </h1>
-        <div className="w-[1020px] h-[178px] p-[16px_0px] gap[8px] border-t-[1.5px] bg-gradient-to-t from-[#3579371A] to-[#D0FFD21A] border-[#496E4B33]">
+        <div className="flex items-center w-[1020px] h-[178px] p-[16px_0px] gap[8px] border-t-[1.5px] bg-gradient-to-t from-[#3579371A] to-[#D0FFD21A] border-[#496E4B33]">
           <div className="w-[667px] h-[146px] p-[42px_20px_0px_20px] gap-[48px] ">
             <span className="w-[74px] h-[20px] font-[Outfit] text-[15px] leading-[20px] font-normal text-[#1B281BB8]">
               Add A Task
@@ -31,8 +31,8 @@ const MainContent = () => {
                 alt="Calender icon"
                 className="w-[24px] h-[24px] top-[7px] left-[100px]"
               />
-              <button className="flex items-center justify-center w-[104px] h-[36px] absolute left-[893px] p-[8px_16px] gap-[16px] rounded-tl-[8px] bg-[#35793729]">
-                <span className="flex items-center font-[Outfit] text-[15px] font-medium leading-[20px] w-[72px] h-[20px] text-[#357937]">
+              <button className="flex items-center justify-center w-[104px] h-[36px] absolute left-[893px] p-[8px_16px] gap-[16px] rounded-tl-[8px] bg-[#35793729] ml-72">
+                <span className="flex  justify-end font-[Outfit] text-[15px] font-medium leading-[20px] w-[70px] h-[20px] text-[#357937]">
                   ADD TASK
                 </span>
               </button>
